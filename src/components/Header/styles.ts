@@ -21,12 +21,10 @@ export const Content = styled.div`
     padding: 0 2rem;
     border-radius: 0.25rem;
     height: 3rem;
+    justify-content: center;
+    
 
-    transition: filter 0.2s;
-
-    &:hover {
-      filter: brightness(0.9); //hacks do css filter no hover
-    }
+   
     
   }
 `
