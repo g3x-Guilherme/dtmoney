@@ -3,7 +3,7 @@ import { createGlobalStyle } from 'styled-components'
 export const GlobalStyle = createGlobalStyle`
   :root {
 
-    --input-background: #e7e9ee
+    --input-background: #e7e9ee;
     --red: #e52e4d;
     --blue: #5429cc;
     --green: #33cc95;
@@ -53,6 +53,7 @@ export const GlobalStyle = createGlobalStyle`
     cursor: pointer;
 
   transition: filter .2s;
+  
 
     &:hover {
       filter: brightness(0.9); //hacks do css filter no hover
