@@ -12,6 +12,17 @@ interface Transaction {
   
 }
 
+//interface TransactionInput {
+// title: string;
+// amount: number;
+// type: string;
+// category: string;
+//} ou
+
+type TransactionInput = Omit<Transaction, "id" | "createdAt">; 
+
+//type TransactionInput = Pick<Transaction, 'title' | 'amount' | 'id' | 'category'>; ou
+
 interface ResponseData {
   transactions: Transaction[]
 }
@@ -20,7 +31,14 @@ interface TransactionsProviderProps {
   children: ReactNode
 }
 
-export const TransactionsContext = createContext<Transaction[]>([]);
+interface TransactionsContextData {
+ transactions: Transaction[];
+  createTransaction: (transaction: TransactionInput) => void;
+}
+
+export const TransactionsContext = createContext<TransactionsContextData>(
+  {} as TransactionsContextData
+  );
 
 
 
@@ -34,8 +52,15 @@ export function TransactionsProvider({children}:TransactionsProviderProps) {
     })
   }, []);
 
+  function createTransaction(transaction: TransactionInput) {
+  
+  api.post('/transactions', transaction)
+}
+
+
   return (
-    <TransactionsContext.Provider value={transactions}>
+    <TransactionsContext.Provider
+     value={{transactions, createTransaction}}>
         {children}
     </TransactionsContext.Provider>
   )
