@@ -1,3 +1,18 @@
+ Olá a todos!! \o/ 
+ 
+Nesse Projeto foi utilizado Typescript | ReactJs | Styled-Components | MirageJs
+O site está no ar, porem o back-end é uma api fake feita com o Mirage, então só o front-end está disponível.
+
+Na construção desse Projeto pude colocar em prática tudo que havia aprendido no projeto @github-explorer(Components, Properties, State), com alguns diferencias como UseContext, Styled-Components e MirageJs. Utilizando todas as boas práticas que o mercado atual utiliza.
+
+![Alt text](relative/path/to/img.jpg?raw=true "project.jpeg")
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
