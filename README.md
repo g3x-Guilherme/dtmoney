@@ -3,59 +3,48 @@
 Nesse Projeto foi utilizado Typescript | ReactJs | Styled-Components | MirageJs
 <p>O site está no ar, porem o back-end é uma api fake feita com o Mirage, então só o front-end está disponível. </p>
 
-<p>Na construção desse Projeto pude colocar em prática tudo que havia aprendido no projeto @github-explorer(Components, Properties, State), com alguns diferencias como UseContext, Styled-Components e MirageJs. Utilizando todas as boas práticas que o mercado atual utiliza.</p>
+<p>Na construção desse Projeto pude colocar em prática tudo que havia aprendido no projeto @github-explorer(Components, Properties, State), com alguns diferenciais como UseContext, Styled-Components e MirageJs. Utilizando todas as boas práticas que o mercado atual utiliza.</p>
 
 ![project](https://user-images.githubusercontent.com/83384060/140013603-26944d31-4e12-4e75-a0dc-49df1c554d6d.jpeg)
 
+<h1>Desafio</h1>
+
+<h3>1) Criar a página</h3>
+<ul>
+ <li>Layout: <a href="https://www.figma.com/file/0xmu9mj2TJYoIOubBFWsk5/dtmoney-Ignite-(Copy)?node-id=0%3A1"> figma </a></li>
+<ul>
+ 
+ <h3>1.1) Criando a estrutura do projeto com React e Styled components.</h3>
+ <p> desde o Header até finalizar com o Dashboard recebendo a TransactionTable e o Summary. </p>
+  
+ <h3>1.2) Importando o Modal do React e dando estilo. </h3>
+ <p> Para instalar o Modal basta utilizar <code>$ npm install --save react-modal
+$ yarn add react-modal
+</code> </p>
+ <p> mais informações de como implementar o <a href="https://github.com/reactjs/react-modal"> Modal</a> no projeto. </p>
+ 
+ <h3> O proximo passo é criar uma api fake usando MirageJs para fazer "POST" para os novos dados inseridos e "GET" os dados que foram inseridos na aplicação  </h3>
+ 
+ <p> Caso queira ter um projeto funcional acesse <a href="https://miragejs.com/">MirageJs</a> </p>
+ <p>Caso não tenha conhecimento em criar uma api fake ou não queira criar do zero aqui esta a aplicação base do projeto: </p>
+
+
+
+
+<p>Lembre-se de instalar o axios, ele vai servir para abrir uma localhost do nosso projeto. Exemplo abaixo: </p>
+<code>import axios from "axios";
+
+ export const api = axios.create({
+   baseURL: "http://localhost:3000/api"
+ })</code>
+ 
 
 
 
 
 
 
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `yarn start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
