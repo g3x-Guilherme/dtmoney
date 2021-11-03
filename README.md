@@ -43,6 +43,7 @@ $ yarn add react-modal
  Obs: O video está com pouca qualidade, o que pode ter gerado uma confusão, mais precisamente quando escolhemos entre "Entrada" e "Saída", o botão muda de cor.
  
  <h4>Caso seja Entrada: </h4>
+ 
  ![entrada](https://user-images.githubusercontent.com/83384060/140230938-a6d6486e-e1a3-451b-8037-ad705d8ef658.jpeg)
 
  
