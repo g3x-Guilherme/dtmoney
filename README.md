@@ -5,7 +5,7 @@ O site está no ar, porem o back-end é uma api fake feita com o Mirage, então 
 
 Na construção desse Projeto pude colocar em prática tudo que havia aprendido no projeto @github-explorer(Components, Properties, State), com alguns diferencias como UseContext, Styled-Components e MirageJs. Utilizando todas as boas práticas que o mercado atual utiliza.
 
-![Alt text](relative/path/to/img.jpg?raw=true "project.jpeg")
+![project](https://user-images.githubusercontent.com/83384060/140013603-26944d31-4e12-4e75-a0dc-49df1c554d6d.jpeg)
 
 
 
