@@ -27,6 +27,8 @@ $ yarn add react-modal
  
  <p> Caso queira ter um projeto funcional acesse <a href="https://miragejs.com/">MirageJs</a> </p>
  <p>Caso não tenha conhecimento em criar uma api fake ou não queira criar do zero aqui esta a aplicação base do projeto: </p>
+ 
+
 
 
 
