@@ -44,12 +44,11 @@ $ yarn add react-modal
  
  <h4>Caso seja Entrada: </h4>
  
- ![entrada](https://user-images.githubusercontent.com/83384060/140230938-a6d6486e-e1a3-451b-8037-ad705d8ef658.jpeg)
-
+ ![entrada](https://user-images.githubusercontent.com/83384060/140233454-e90aac5f-fe19-4d68-8993-0c43ac6da43a.jpeg)
  
  <h4>Caso seja Saída: </h4>
  
- ![saida](https://user-images.githubusercontent.com/83384060/140230956-aaccd0a6-2372-429f-87d1-a0cee760367e.jpeg)
+ ![saida](https://user-images.githubusercontent.com/83384060/140233400-beebb951-5e0b-4942-8410-c3e1f1b494a1.jpeg)
  
  
  
