@@ -15,7 +15,7 @@ Nesse Projeto foi utilizado Typescript | ReactJs | Styled-Components | MirageJs
 <ul>
  
  <h3>1.1) Criando a estrutura do projeto com React e Styled components.</h3>
- <p>Para instalar o Styled-Components run <code>npm install styled-components@^5.0.0 react@^16.8 react-dom@^16.8 react-is@^16.8</code> clique <a href="https://github.com/styled-components/styled-components">aqui</a> para mais informações da ferramenta.</p>
+ <p>Para instalar o Styled-Components run <code>npm install styled-components@^5.0.0 react@^16.8 react-dom@^16.8 react-is@^16.8</code></br> clique <a href="https://github.com/styled-components/styled-components">aqui</a> para mais informações da ferramenta.</p>
  <p> Construa a estrutura do projeto desde o Header até finalizar com o Dashboard recebendo a TransactionTable e o Summary. </p>
   
  <h3>1.2) Importando o Modal do React e dando estilo. </h3>
