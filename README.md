@@ -23,25 +23,25 @@ $ yarn add react-modal
 </code> </p>
  <p> mais informações de como implementar o <a href="https://github.com/reactjs/react-modal"> Modal</a> no projeto. </p>
  
- <h3> O proximo passo é criar uma api fake usando MirageJs para fazer "POST" para os novos dados inseridos e "GET" os dados que foram inseridos na aplicação  </h3>
+ <h3>2) O proximo passo é criar uma api fake usando MirageJs para fazer "POST" para os novos dados inseridos e "GET" os dados que foram inseridos na aplicação  </h3>
  
  <p> Caso queira ter um projeto funcional acesse <a href="https://miragejs.com/">MirageJs</a> </p>
- <p>Caso não tenha conhecimento em criar uma api fake ou não queira criar do zero aqui esta a aplicação base do projeto: </p>
+ <p>Caso não tenha conhecimento em criar uma api fake ou não queira criar do zero, aqui está a aplicação base do projeto: </p>
  
  ![miragejs](https://user-images.githubusercontent.com/83384060/140200445-f6de849a-8682-4c4c-bf3c-042a50fa7555.jpeg)
  
 
-
-
-
-
 <p>Lembre-se de instalar o axios, ele vai servir para abrir uma localhost do nosso projeto. Exemplo abaixo: </p>
-<code>import axios from "axios";
 
- export const api = axios.create({
-   baseURL: "http://localhost:3000/api"
- })</code>
+
+ ![axios](https://user-images.githubusercontent.com/83384060/140223673-f020a0e3-983e-43ba-a95b-f711c8b3c67a.jpeg)
  
+ <h3>3) O proximo passo é criar as funcionalidades do projeto, utilizando a sua lógica desde o Open e Close do Modal, até todos os componentes estiverem fazendo o seu papel. :)</h3>
+ 
+ 
+ 
+ 
+
 
 
 
