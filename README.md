@@ -38,6 +38,10 @@ $ yarn add react-modal
  
  <h3>3) O proximo passo é criar as funcionalidades do projeto, utilizando a sua lógica desde o Open e Close do Modal, até todos os componentes estiverem fazendo o seu papel. :)</h3>
  
+ https://user-images.githubusercontent.com/83384060/140227843-7dedef48-5840-4645-9058-fdd2ac74cb33.mp4
+ 
+ Obs: O video está com pouca qualidade, o que pode ter gerado uma confusão, mais precisamente quando escolhemos entre "Entrada" e "Saída", o botão muda de cor(caso seja entrada ele fica verde e caso seja saída fica vermelho).
+ 
  
  
  
