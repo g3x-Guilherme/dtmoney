@@ -1,9 +1,9 @@
  Olá a todos!! \o/ 
  
 Nesse Projeto foi utilizado Typescript | ReactJs | Styled-Components | MirageJs
-O site está no ar, porem o back-end é uma api fake feita com o Mirage, então só o front-end está disponível.
+<p>O site está no ar, porem o back-end é uma api fake feita com o Mirage, então só o front-end está disponível. </p>
 
-Na construção desse Projeto pude colocar em prática tudo que havia aprendido no projeto @github-explorer(Components, Properties, State), com alguns diferencias como UseContext, Styled-Components e MirageJs. Utilizando todas as boas práticas que o mercado atual utiliza.
+<p>Na construção desse Projeto pude colocar em prática tudo que havia aprendido no projeto @github-explorer(Components, Properties, State), com alguns diferencias como UseContext, Styled-Components e MirageJs. Utilizando todas as boas práticas que o mercado atual utiliza.</p>
 
 ![project](https://user-images.githubusercontent.com/83384060/140013603-26944d31-4e12-4e75-a0dc-49df1c554d6d.jpeg)
 
