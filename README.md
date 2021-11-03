@@ -26,7 +26,7 @@ $ yarn add react-modal
  
  <h3>2) O proximo passo é criar uma api fake, usando MirageJs para fazer "POST" para os novos dados inseridos e "GET" os dados que foram inseridos na aplicação  </h3>
  
- <p> Caso queira ter um projeto funcional acesse <a href="https://miragejs.com/">MirageJs</a> </p>
+ <p> Caso queira ter um projeto funcional acesse: <a href="https://miragejs.com/">MirageJs.</a> </p>
  <p>Caso não tenha conhecimento em criar uma api fake ou não queira criar do zero, aqui está a aplicação base do projeto: </p>
  
  ![miragejs](https://user-images.githubusercontent.com/83384060/140200445-f6de849a-8682-4c4c-bf3c-042a50fa7555.jpeg)
